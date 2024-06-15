@@ -9,3 +9,9 @@ variable "azure_location" {
   description = "The Azure Region"
   default     = "West Europe"
 }
+
+variable "virtual_network_name" {
+  type        = string
+  default     = "scfademovnet"
+  description = "Name of virtual network"
+}
