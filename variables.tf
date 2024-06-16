@@ -15,3 +15,8 @@ variable "virtual_network_name" {
   default     = "scfademovnet"
   description = "Name of virtual network"
 }
+
+variable "virtual_subnet_name" {
+  default     = "scfademosubnet"
+  description = "Name of the virtual subnet"
+}
